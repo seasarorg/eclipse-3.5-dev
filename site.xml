@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.seasar.kvasir.plust.feature_0.0.5.201003171710.jar" id="org.seasar.kvasir.plust.feature" version="0.0.5.201003171710">
+      <category name="Kvasir/Sora"/>
+   </feature>
+   <category-def name="Kvasir/Sora" label="Kvasir/Sora">
+      <description>
+         Features for Kvasir/Sora.
+      </description>
+   </category-def>
+</site>
