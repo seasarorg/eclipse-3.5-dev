@@ -3,6 +3,9 @@
    <feature url="features/org.seasar.kvasir.plust.feature_0.0.5.201003171710.jar" id="org.seasar.kvasir.plust.feature" version="0.0.5.201003171710">
       <category name="Kvasir"/>
    </feature>
+   <feature url="features/org.seasar.kvasir.plust.feature_0.1.0.201003241443.jar" id="org.seasar.kvasir.plust.feature" version="0.1.0.201003241443">
+      <category name="Kvasir"/>
+   </feature>
    <category-def name="Kvasir" label="Kvasir/Sora">
       <description>
          Features for Kvasir/Sora.
