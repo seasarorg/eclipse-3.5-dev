@@ -3,14 +3,14 @@
 <repository name='file:/F:/svn/www.seasar.org/eclipse/updates/3.5-dev/ - artifacts' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
   <properties size='2'>
     <property name='p2.compressed' value='false'/>
-    <property name='p2.timestamp' value='1269409428748'/>
+    <property name='p2.timestamp' value='1271638443129'/>
   </properties>
   <mappings size='3'>
     <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
     <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
     <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
   </mappings>
-  <artifacts size='4'>
+  <artifacts size='6'>
     <artifact classifier='osgi.bundle' id='org.seasar.kvasir.plust' version='0.0.5.201003171710'>
       <properties size='3'>
         <property name='artifact.size' value='2911895'/>
@@ -29,6 +29,19 @@
       <properties size='2'>
         <property name='artifact.size' value='832'/>
         <property name='download.size' value='832'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.seasar.kvasir.plust.feature' version='0.1.0.201004190953'>
+      <properties size='2'>
+        <property name='artifact.size' value='834'/>
+        <property name='download.size' value='834'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.seasar.kvasir.plust' version='0.1.0.201004190953'>
+      <properties size='3'>
+        <property name='artifact.size' value='3954575'/>
+        <property name='download.size' value='3954575'/>
+        <property name='download.contentType' value='application/zip'/>
       </properties>
     </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.seasar.kvasir.plust.feature' version='0.0.5.201003171710'>
